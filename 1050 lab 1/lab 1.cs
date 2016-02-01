@@ -27,7 +27,7 @@ namespace _1050_lab_1
             bool isCitizen;
             isCitizen = answer == "y";
             bool isComputeus;
-            isComputeus = isCitizen == correctAge;
+            isComputeus = isCitizen && correctAge;
             
 
           // Compute height
